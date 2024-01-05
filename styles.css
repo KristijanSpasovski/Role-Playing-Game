@@ -1,45 +1,74 @@
 body {
-  background-color: #0a0a23;
-}
-
-#text {
-  background-color: #0a0a23;
-  color: #fff;
-  padding: 10px;
+  background-color: #2e2836;
+  background-image: url(images/DragonRepellerBg.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #be8a60;
+  font-family: "Cinzel";
+  font-size: 1.2rem;
+  margin: 0;
 }
 
 #game {
-  max-width: 500px;
-  max-height: 400px;
-  background-color: #fff;
-  color: #fff;
-  margin: 30px auto 0px;
+  max-width: 670px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #6a2e35;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#stats,
+#controls {
+  border: 1px solid #be8a60;
+  margin-bottom: 10px;
   padding: 10px;
+  border-radius: 5px;
 }
-
-#controls,
-#stats {
-  border: 1px solid #0a0a23;
-  color: #0a0a23;
-  padding: 5px;
-}
-
 #monsterStats {
   display: none;
-  border: 1px solid #0a0a23;
-  padding: 5px;
-  color: #fff;
-  background-color: #c70d0d;
+  border: 1px solid #c70d0d;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2e2836;
+  margin-bottom: 10px;
 }
-
 .stat {
   padding-right: 10px;
 }
-
 button {
   cursor: pointer;
-  color: #0a0a23;
-  background-color: #feac32;
-  background-image: linear-gradient(#fecc4c, #ffac33);
-  border: 3px solid #feac32;
+  color: #2e2836;
+  font-size: 1rem;
+  font-family: "Cinzel";
+  font-weight: bold;
+  background-color: #be8a60;
+  border: 3px solid #be8a60;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #cca778;
+}
+#text {
+  background-color: #2e2836;
+  color: #be8a60;
+  padding: 20px;
+  border-radius: 5px;
+}
+#winText,
+#loseText {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+#winText {
+  color: #4caf50;
+}
+#loseText {
+  color: #c70d0d;
 }

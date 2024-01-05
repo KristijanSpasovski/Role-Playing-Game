@@ -1,0 +1,83 @@
+body {
+  color: #be8a60;
+  background-color: #2e2836;
+  background-image: url("DragonRepellerBg.465b9931.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: Cinzel;
+  font-size: 1.2rem;
+}
+
+#game {
+  background-color: #6a2e35;
+  border-radius: 10px;
+  max-width: 670px;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #00000080;
+}
+
+#stats, #controls {
+  border: 1px solid #be8a60;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#monsterStats {
+  background-color: #2e2836;
+  border: 1px solid #c70d0d;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: none;
+}
+
+.stat {
+  padding-right: 10px;
+}
+
+button {
+  cursor: pointer;
+  color: #2e2836;
+  background-color: #be8a60;
+  border: 3px solid #be8a60;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 8px;
+  font-family: Cinzel;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color .3s;
+}
+
+button:hover {
+  background-color: #cca778;
+}
+
+#text {
+  color: #be8a60;
+  background-color: #2e2836;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#winText, #loseText {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#winText {
+  color: #4caf50;
+}
+
+#loseText {
+  color: #c70d0d;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
