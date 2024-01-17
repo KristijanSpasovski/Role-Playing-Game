@@ -1,10 +1,10 @@
-# DragonQuest RPG
+# Dragon Repeller RPG
 
-DragonQuest RPG is a text-based role-playing game where players embark on an epic journey to defeat the mighty dragon and save the town.
+Dragon Repeller RPG is a text-based role-playing game where players embark on an epic journey to defeat the mighty dragon and save the town.
 
 ## Play the Game
 
-🎮 [Play DragonQuest RPG](https://kristijanspasovski.github.io/Role-Playing-Game/)
+🎮 [Play Dragon Repeller RPG](https://kristijanspasovski.github.io/Role-Playing-Game/)
 
 ## Features
 
@@ -21,12 +21,5 @@ DragonQuest RPG is a text-based role-playing game where players embark on an epi
 
 Contributions are welcome! Feel free to submit pull requests or open issues for improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## About
-
-DragonQuest RPG was created by [Your Name]. Connect with me on [LinkedIn](#) and [Twitter](#).
 
 Enjoy your quest!
